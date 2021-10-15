@@ -1,9 +1,11 @@
-﻿* {
+﻿/* Applied to everything */
+* {
     margin-left: 10x;
     margin-right: 10px;
     font-family: 'Questrial', sans-serif;
 }
 
+/* Text Styles */
 h1 {
     position: relative;
     font-size: 50px;
@@ -27,7 +29,12 @@ h3 {
     font-weight: bold;
 }
 
-.bkgr_image {
+p.big { /* Bigger line spacing */
+    line-height: 1.4
+}
+
+/* Images*/
+.bkgr_image { /* For chicago image in background */
     position: absolute;
     display: block;
     width: 1263px;
@@ -46,6 +53,7 @@ h3 {
     padding: 20px;
 }
 
+/* Text Background Boxes */
 .centerbox {
     position: relative;
     width: 300px;
@@ -61,6 +69,8 @@ h3 {
     padding: 20px;
     background: rgba(192, 251, 255, 0.8);
 }
+
+/* Webpage Sections */
 
 .navbar {
     position: fixed;
